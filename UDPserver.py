@@ -6,8 +6,8 @@
 
 from socket import *
 
-hej = socket(AF_INET, SOCK_DGRAM)
-
+mySocket = socket(AF_INET, SOCK_DGRAM)
+mySocket.bind(('129.16.29.51', 12000))
 
 
 # with socket(AF_INET, SOCK_DGRAM) as mySocket:
