@@ -6,7 +6,7 @@
 
 from socket import *
 
-# hej = socket(AF_INET, SOCK_DGRAM)
+hej = socket(AF_INET, SOCK_DGRAM)
 
 
 
