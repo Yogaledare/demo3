@@ -15,5 +15,5 @@ while True:
     print(type(message))
     if message.decode() == "kill":
         break
-
+mySocket.close()
 
